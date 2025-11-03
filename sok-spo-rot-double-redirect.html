@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sok-Spo-Rot — Подключение к тестированию</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: radial-gradient(circle at top, #3c0069, #0d001a);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      justify-content: center;
+    }
+    img.logo {
+      width: 320px;
+      max-width: 80%;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(180, 100, 255, 0.4);
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 10px auto;
+      line-height: 1.5;
+    }
+    .timer {
+      font-size: 2em;
+      font-weight: bold;
+      color: #bb86fc;
+      margin: 25px 0;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #bb86fc;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: background 0.3s, transform 0.2s;
+    }
+    a.button:hover {
+      background-color: #a56cf5;
+      transform: scale(1.05);
+    }
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/1024x500.jpg" alt="Sok-Spo-Rot" class="logo">
+
+  <h1>Добро пожаловать в тестирование Sok-Spo-Rot!</h1>
+  <p>Сначала откроется страница подтверждения участия, затем автоматически — страница игры в Google Play.</p>
+  <p>Переход начнётся через <span class="timer" id="countdown">5</span> секунд...</p>
+
+  <a href="https://l1nk.dev/sok-spo-rot-testing" id="redirectLink" class="button">Перейти вручную</a>
+
+  <footer>© 2025 Viacheslav Sanin</footer>
+
+  <script>
+    const firstLink = "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fgroups.google.com%2Fg%2Fsok-spo-rot-testing&dsh=S420216954%3A1762042223808646&hl=ru&ifkv=ARESoU0PKsxbuC0pEMrVaKqW1eYUSPqHDgYliIPXdQt8YqiwvGVlK7GQdo4BSuA-frf6Yw7_ew2odA&rip=1&sacu=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
+    const secondLink = "https://play.google.com/store/apps/details?id=com.viacheslavsanin.soksporot";
+    let timeLeft = 30;
+    const timerEl = document.getElementById("countdown");
+
+    const countdown = setInterval(() => {
+      timeLeft--;
+      timerEl.textContent = timeLeft;
+      if (timeLeft <= 0) {
+        go();
+      }
+    }, 1000);
+
+    document.getElementById("redirectLink").addEventListener("click", e => {
+      e.preventDefault();
+      go();
+    });
+	
+	function go() {
+		clearInterval(countdown);
+        // Открываем страницу тестирования
+        window.open(firstLink, "_blank");
+        // Затем через 10 секунд — Google Play
+        setTimeout(() => {
+          window.location.href = secondLink;
+        }, 10000);
+	}
+	
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+You are invited to participate in the closed/internal testing of my new Android game “Sok-Spo-Rot” on Google Play.
+
+Your feedback will help me improve the product before the official release.
+
+How to participate:
+----------------------------------------------------------------------------------
+1. Sign in with your Gmail account:
+	👉 https://accounts.google.com/AccountChooser?continue=https://groups.google.com/g/sok-spo-rot-testing&hl=en
+
+2. Confirm your participation:
+	👉 Click “Join”
+
+3. Download the app (game):
+	On your Android device:
+	👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.soksporot
+	or
+	On the web:
+	👉 https://play.google.com/apps/testing/com.viacheslavsanin.soksporot
+----------------------------------------------------------------------------------
+
+Try out the main features and share any bugs, suggestions, or impressions.
+Testing is available for the first 100 participants.
+
+All feedback can be sent as a reply to this email or via the contact information below.
+To participate, please make sure to use your Gmail account mentioned in your reply.
+
+I appreciate your help and feedback!
+Thank you!
+
+Viacheslav Sanin
+📭 sok-spo-rot-testing@googlegroups.com
