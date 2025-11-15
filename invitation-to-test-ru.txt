@@ -12,10 +12,10 @@
 
 3. Скачайте приложение (игру):
   На Android-устройстве:
-  👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.soksporot
+  👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.ssr
     или
   На сайте:
-  👉 https://play.google.com/apps/testing/com.viacheslavsanin.soksporot
+  👉 https://play.google.com/apps/testing/com.viacheslavsanin.ssr
 --------------------------------------------------------------------------------------------
 
 Попробуйте основные функции и расскажите о любых ошибках, пожеланиях и впечатлениях.
@@ -26,4 +26,4 @@
 Спасибо!
 
   Viacheslav Sanin
- 📭 sok-spo-rot-testing@googlegroups.com
+ 📭 soksporot@gmail.com

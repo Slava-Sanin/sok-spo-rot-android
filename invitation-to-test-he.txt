@@ -12,10 +12,10 @@
 
 3. הורידו את האפליקציה (המשחק):
 	במכשיר ה-Android שלכם:
-	👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.soksporot
+	👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.ssr
 	או
 	באתר:
-	👉 https://play.google.com/apps/testing/com.viacheslavsanin.soksporot
+	👉 https://play.google.com/apps/testing/com.viacheslavsanin.ssr
 ----------------------------------------------------------------------------------
 נסו את הפונקציות המרכזיות של המשחק ושתפו אותי בכל תקלה, הצעה או חוויה.
 הבדיקה זמינה ל-100 המשתתפים הראשונים בלבד.
@@ -27,4 +27,4 @@
 תודה!
 
 Viacheslav Sanin
-📭 sok-spo-rot-testing@googlegroups.com
+📭 soksporot@gmail.com

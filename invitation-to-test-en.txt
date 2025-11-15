@@ -12,10 +12,10 @@ How to participate:
 
 3. Download the app (game):
 	On your Android device:
-	👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.soksporot
+	👉 https://play.google.com/store/apps/details?id=com.viacheslavsanin.ssr
 	or
 	On the web:
-	👉 https://play.google.com/apps/testing/com.viacheslavsanin.soksporot
+	👉 https://play.google.com/apps/testing/com.viacheslavsanin.ssr
 ----------------------------------------------------------------------------------
 
 Try out the main features and share any bugs, suggestions, or impressions.
@@ -28,4 +28,4 @@ I appreciate your help and feedback!
 Thank you!
 
 Viacheslav Sanin
-📭 sok-spo-rot-testing@googlegroups.com
+📭 soksporot@gmail.com
